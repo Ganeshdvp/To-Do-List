@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body class="dark-theme">
+    <section>
+        <button onclick="switchToggle()" id="toggle">Toggle Theme</button>
+    </section>
+    <section class="todo-container">
+        <section class="container">
+            <h1>To-Do List</h1>
+            <p>A To-Do List is a tool used to organize and manage tasks. It allows users to add, view, complete, and delete tasks, helping them stay productive and track their progress.</p>
+            <input type="text" placeholder="Add a new task.." class="input" id="input"> 
+            <button class="add-btn" id="add" onclick=addTask()>ADD</button>
+        </section>
+        <section class="todo-list-container">
+                <h2>All Tasks Here</h2>
+                <p class="to-do-p-tag">Here are your tasks:</p>
+                <table table = "striked" cellpadding="10" cellspacing="0" width="100%" style="border-collapse: separate; border-spacing: 0 10px; vertical-align: middle; text-align: center; color: #3f0202;" >
+                    <thead>
+                        <tr>
+                            <td>S.NO</td>
+                            <td>Task</td>
+                            <td>Action</td>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+        </section>
+    </section>
+    <script src="todo.js"></script>
+</body>
+</html>
