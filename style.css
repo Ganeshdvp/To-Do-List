@@ -24,8 +24,8 @@ body{
     height: 600px;
     background-color: var(--background-secondary);
     position: relative;
-    top: 200px;
-    left: 600px;
+    top: 100px;
+    left: 550px;
     border: #830909 1px solid;
     border-radius: 10px;
     box-shadow:  var(--box-primary);
